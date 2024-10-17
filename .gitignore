@@ -1,29 +1,28 @@
-### IntelliJ IDEA ###
+# Ignorar carpetas y archivos de configuración de IntelliJ IDEA
+.idea/
+*.iml
+
+# Ignorar la carpeta de compilación
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+target/
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+# Ignorar archivos temporales del sistema operativo
+*.DS_Store
+*.log
+*.swp
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Ignorar archivos de compilación
+*.class
+*.jar
+*.war
+*.ear
 
-### VS Code ###
-.vscode/
+# Ignorar configuraciones de Maven o Gradle
+.mvn/
+.gradle/
 
-### Mac OS ###
-.DS_Store
+# Ignorar dependencias locales (si es que tienes)
+node_modules/
+
+# Ignorar archivos generados de Git
+*.gitignore~
